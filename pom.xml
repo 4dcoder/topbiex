@@ -15,5 +15,7 @@
         <module>topbiex-docs</module>
         <module>topbiex-data</module>
         <module>topbiex-client</module>
+        <module>topbiex-spring-boot</module>
+        <module>topbiex-config</module>
     </modules>
 </project>

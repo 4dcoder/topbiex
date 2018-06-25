@@ -5,13 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.topbiex</groupId>
-        <artifactId>topbiex-spring-boot-parent</artifactId>
+        <artifactId>topbiex-spring-boot-dependencies</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <artifactId>topbiex-spring-boot-parent</artifactId>
     <packaging>pom</packaging>
-    <artifactId>topbiex-data</artifactId>
-    <modules>
-        <module>topbiex-data-statistics</module>
-    </modules>
+    <description>topbiex所有spring-boot项目的parent pom.xml所有的spring-boot应用都继承该pom.xml</description>
+    <url>http://www.topbiex.com</url>
+    <dependencyManagement>
+        <dependencies>
+            <!-- topbiex spring boot jars -->
+        </dependencies>
+    </dependencyManagement>
 </project>

@@ -2,14 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>topbiex</artifactId>
-        <groupId>com.topbiex</groupId>
-        <version>1.0.0-SNAPSHOT</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <parent>
+        <groupId>com.topbiex</groupId>
+        <artifactId>topbiex-spring-boot-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <packaging>pom</packaging>
     <artifactId>topbiex-dax</artifactId>
-
-
+    <modules>
+        <module>topbiex-dax-users</module>
+        <module>topbiex-dax-spot</module>
+        <module>topbiex-dax-push</module>
+        <module>topbiex-dax-asset</module>
+        <module>topbiex-dax-market</module>
+        <module>topbiex-dax-portal</module>
+        <module>topbiex-dax-boss</module>
+        <module>topbiex-dax-integration</module>
+        <module>topbiex-dax-scheduler</module>
+        <module>topbiex-dax-aux</module>
+        <module>topbiex-dax-c2c</module>
+        <module>topbiex-dax-contracts</module>
+        <module>topbiex-dax-option</module>
+        <module>topbiex-dax-etf</module>
+    </modules>
 </project>

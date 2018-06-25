@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.topbiex</groupId>
+    <artifactId>topbiex</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>Topbiex is an open source, centralized digital currency exchange system</description>
+    <modules>
+        <module>topbiex-commons</module>
+        <module>topbiex-springcloud</module>
+        <module>topbiex-dax</module>
+        <module>topbiex-wallet</module>
+        <module>topbiex-docs</module>
+        <module>topbiex-data</module>
+        <module>topbiex-client</module>
+    </modules>
+</project>

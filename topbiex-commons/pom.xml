@@ -22,8 +22,7 @@
         <module>topbiex-commons-report</module>
         <module>topbiex-commons-security</module>
         <module>topbiex-commons-security-jwt</module>
-        <module>topbiex-commons-session-memcached</module>
-        <module>topbiex-commons-session-redis</module>
         <module>topbiex-commons-spring-support</module>
+        <module>topbiex-commons-session</module>
     </modules>
 </project>

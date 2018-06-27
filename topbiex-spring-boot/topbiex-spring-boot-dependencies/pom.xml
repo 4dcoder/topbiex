@@ -44,6 +44,7 @@
         <commons-compress.version>1.15</commons-compress.version>
         <commons-text.version>1.1</commons-text.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
+        <commons-crypto.version>1.0.0</commons-crypto.version>
         <modelmapper.version>1.1.1</modelmapper.version>
         <!-- db -->
         <c3p0.version>0.9.5.2</c3p0.version>
@@ -289,6 +290,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
                 <version>${commons-text.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-crypto</artifactId>
+                <version>${commons-crypto.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-httpclient</groupId>

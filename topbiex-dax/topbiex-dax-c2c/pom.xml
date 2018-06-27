@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-c2c</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-c2c-dto</module>
+        <module>topbiex-dax-c2c-client</module>
+        <module>topbiex-dax-c2c-service</module>
+        <module>topbiex-dax-c2c-rest</module>
+        <module>topbiex-dax-c2c-job</module>
+    </modules>
 
 
 </project>

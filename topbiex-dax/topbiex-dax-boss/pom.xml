@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-boss</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-boss-client</module>
+        <module>topbiex-dax-boss-common</module>
+        <module>topbiex-dax-boss-dto</module>
+        <module>topbiex-dax-boss-service</module>
+        <module>topbiex-dax-boss-web</module>
+    </modules>
 
 
 </project>

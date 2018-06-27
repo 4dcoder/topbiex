@@ -26,5 +26,6 @@
         <module>topbiex-dax-contracts</module>
         <module>topbiex-dax-option</module>
         <module>topbiex-dax-etf</module>
+        <module>topbiex-dax-promotion</module>
     </modules>
 </project>

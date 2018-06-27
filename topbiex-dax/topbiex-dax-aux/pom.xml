@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-aux</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-aux-dto</module>
+        <module>topbiex-dax-aux-client</module>
+        <module>topbiex-dax-aux-service</module>
+        <module>topbiex-dax-aux-job</module>
+        <module>topbiex-dax-aux-rest</module>
+    </modules>
 
 
 </project>

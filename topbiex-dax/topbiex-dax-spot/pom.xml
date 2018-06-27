@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-spot</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-spot-client</module>
+        <module>topbiex-dax-spot-dto</module>
+        <module>topbiex-dax-spot-openapi</module>
+        <module>topbiex-dax-spot-rest</module>
+        <module>topbiex-dax-spot-service</module>
+        <module>topbiex-dax-spot-job</module>
+        <module>topbiex-dax-spot-matching</module>
+    </modules>
 
 
 </project>

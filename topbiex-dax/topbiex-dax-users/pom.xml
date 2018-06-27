@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-users</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-users-client</module>
+        <module>topbiex-dax-users-dto</module>
+        <module>topbiex-dax-users-rest</module>
+        <module>topbiex-dax-users-service</module>
+    </modules>
 
 
 </project>

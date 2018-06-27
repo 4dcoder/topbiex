@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-market</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-market-dto</module>
+        <module>topbiex-dax-market-service</module>
+        <module>topbiex-dax-market-rest</module>
+        <module>topbiex-dax-market-job</module>
+        <module>topbiex-dax-market-spider</module>
+    </modules>
 
 
 </project>

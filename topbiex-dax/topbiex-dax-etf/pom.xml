@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-etf</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-etf-client</module>
+        <module>topbiex-dax-etf-dto</module>
+        <module>topbiex-dax-etf-service</module>
+        <module>topbiex-dax-etf-rest</module>
+    </modules>
 
 
 </project>

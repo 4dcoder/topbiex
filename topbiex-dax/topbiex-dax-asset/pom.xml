@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-asset</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-asset-client</module>
+        <module>topbiex-dax-asset-dto</module>
+        <module>topbiex-dax-asset-service</module>
+        <module>topbiex-dax-asset-rest</module>
+        <module>topbiex-dax-asset-job</module>
+    </modules>
 
 
 </project>

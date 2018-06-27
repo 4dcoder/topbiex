@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>topbiex-dax-contracts</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>topbiex-dax-contracts-client</module>
+        <module>topbiex-dax-contracts-dto</module>
+        <module>topbiex-dax-contracts-service</module>
+        <module>topbiex-dax-contracts-rest</module>
+        <module>topbiex-dax-contracts-openapi</module>
+        <module>topbiex-dax-contracts-matching</module>
+        <module>topbiex-dax-contracts-job</module>
+    </modules>
 
 
 </project>
